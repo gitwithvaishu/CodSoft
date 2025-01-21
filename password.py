@@ -12,9 +12,4 @@ rand.shuffle(password)
 pass_word=""
 for char in password:
     pass_word+=char
-print("Your password is \""+pass_word,"\"")
-
-
-
-
-
+print(pass_word)
