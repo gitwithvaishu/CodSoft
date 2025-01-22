@@ -37,11 +37,11 @@ while True:
         print("You won")
         user_score+=1
     else:
-        print("Its TIE")
+        print("DRAW")
         comp_score+=1
         user_score+=1
     print("Your score: ",user_score)
-    print("Computerr score: ",comp_score)
+    print("Computer score: ",comp_score)
     con_choice=input("Do you want to continue(y/n):")
     if con_choice.lower()=='y':
         continue
